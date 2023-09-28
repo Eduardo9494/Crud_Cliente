@@ -11,6 +11,8 @@ if(isset($_POST['ingresar'])){
         return;
     }
 
+    include_once "funciones.php";
+
     
 }
 ?>
