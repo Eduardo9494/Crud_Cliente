@@ -28,7 +28,15 @@
             </a>
         </li>
         
-        
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+               
+            </li>
+            &nbsp
+            <li class="nav-item">
+                <a href="cerrar_sesion.php" class="btn btn-warning">Salir</a>
+            </li>
         </ul>
     </div>
   </div>
