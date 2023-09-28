@@ -20,6 +20,14 @@
             <i class="fa fa-users"></i> 
             Usuarios
             </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="clientes.php">
+            <i class="fa fa-user-friends"></i> 
+            Clientes
+            </a>
+        </li>
+        
         
         </ul>
     </div>
