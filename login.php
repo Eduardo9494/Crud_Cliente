@@ -9,7 +9,12 @@ include_once "encabezado.php";
         <div class="col-md-6 bg-white p-5">
             <h3 class="pb-3">Iniciar sesión</h3>
             <div>
-                
+                <form action="iniciar_sesion.php" method="post">
+                    <div class="form-group pb-3">
+                        <input type="text" placeholder="Usuario" class="form-control" name="usuario" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    
+                </form>
              </div>
         </div>
     </div>
