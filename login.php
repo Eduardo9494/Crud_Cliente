@@ -17,7 +17,9 @@ include_once "encabezado.php";
                         <input type="password" placeholder="Contraseña" class="form-control" name="password" id="exampleInputPassword1">
                     </div>
 
-                    
+                    <div class="pb-2">
+                        <button type="submit" name="ingresar" class="btn btn-primary w-100 font-weight-bold mt-2">Ingresar</button>
+                    </div>
                 </form>
              </div>
         </div>
