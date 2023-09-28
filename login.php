@@ -13,6 +13,10 @@ include_once "encabezado.php";
                     <div class="form-group pb-3">
                         <input type="text" placeholder="Usuario" class="form-control" name="usuario" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
+                    <div class="form-group pb-3">
+                        <input type="password" placeholder="Contraseña" class="form-control" name="password" id="exampleInputPassword1">
+                    </div>
+
                     
                 </form>
              </div>
