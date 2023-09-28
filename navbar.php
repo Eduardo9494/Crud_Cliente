@@ -15,6 +15,11 @@
             </a>
         </li>
         
+        <li class="nav-item">
+            <a class="nav-link active" href="usuarios.php">
+            <i class="fa fa-users"></i> 
+            Usuarios
+            </a>
         
         </ul>
     </div>
