@@ -57,5 +57,6 @@ if(isset($_POST['registrar'])){
         </div>';
     }
     
+    
 }
 ?>
