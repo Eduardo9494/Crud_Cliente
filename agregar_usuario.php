@@ -38,5 +38,30 @@ if(empty($_SESSION['usuario'])) header("location: login.php");
     </form>
 </div>
 <?php
-
+if(isset($_POST['registrar'])){
+    $usuario = $_POST['usuario'];
+    $nombre = $_POST['nombre'];
+    $telefono = $_POST['telefono'];
+    $Apellido = $_POST['Apellido'];
+    if(empty($usuario)
+    ||empty($nombre) 
+    || empty($telefono) 
+    || empty($Apellido)){
+        echo'
+        <div class="alert alert-danger mt-3" role="alert">
+            Debes completar todos los datos.
+        </div>';
+        return;
+    } 
+    
+    include_once "funciones.php";
+    $resultado = registrarUsuario($usuario, $nombre, $telefono, $Apellido);
+    if($resultado){
+        echo'
+        <div class="alert alert-success mt-3" role="alert">
+            Usuario registrado con éxito.
+        </div>';
+    }
+    
+}
 ?>
